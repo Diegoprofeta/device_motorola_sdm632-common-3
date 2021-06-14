@@ -130,6 +130,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ExactCalculator
 
+# Calender (Sakura only)
+PRODUCT_PACKAGES += \
+    Etar
+
 # Codec2 modules
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
