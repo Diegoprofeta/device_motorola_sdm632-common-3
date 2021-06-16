@@ -228,6 +228,10 @@ on boot
     #sensors log dir
     mkdir /data/vendor/sensors
     chown system system /data/vendor/sensors
+	
+	# FPS Info
+    chown system graphics /sys/class/graphics/fb0/measured_fps
+    chmod 0666 /sys/class/graphics/fb0/measured_fps
 
 # msm specific files that need to be created on /data
 on post-fs-data
